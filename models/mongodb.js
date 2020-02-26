@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 try {
-    let connectio = mongoose.connect('mongodb://localhost/yange-app', {
+    let connectio = mongoose.connect('mongodb+srv://anselme:123@cluster0-gu14c.mongodb.net/yange-app', {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true
